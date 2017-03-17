@@ -1,6 +1,6 @@
 # osxdrop
 
-`osxdrop` is a small tool that takes a binary executable, compresses it (using bzip2), and creates an executable shell script that, when started, will uncompress the binary executable and run it.
+`osxdrop` is a small tool that takes a binary executable, compresses it (using gzip or bzip2, whichever yields smaller binaries), and creates an executable shell script that, when started, will uncompress the binary executable and run it.
 
 ## Syntax
 
