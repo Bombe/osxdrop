@@ -13,7 +13,7 @@ if [ -z "${DROPPER}" ]; then
 fi
 
 (
-    cat drop.sh
+    cat drop-bzip2.sh
     bzip2 -c -9 < "${BINARY}"
 ) > "${DROPPER}"
 chmod +x "${DROPPER}"
