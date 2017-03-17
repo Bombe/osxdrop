@@ -9,7 +9,7 @@ if [ -z "${BINARY}" ]; then
 fi
 
 if [ -z "${DROPPER}" ]; then
-    DROPPER="${BINARY}.sh"
+    DROPPER="$(basename "${BINARY}").sh"
 fi
 
 (
